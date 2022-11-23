@@ -1,5 +1,5 @@
 module.exports = {
-  // Enter the code in the URL - https://app.sli.do/event/EVENT_CODE
+  // Enter the code in the URL - https://app.sli.do/event/EVENT_CODE/live/questions
   event_code: '',
   // Which question you want to boost?
   question_id: '',
