@@ -15,3 +15,7 @@ Simple auto voting (like) bot for Slido questions.
 `like_wish`: Set how many likes you want.
 
 2- Run `yarn start`
+
+### Contributing
+
+Contributions are always welcome!
