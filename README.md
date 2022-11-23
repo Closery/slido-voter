@@ -1,3 +1,5 @@
+![alt text](https://github.com/Closery/slido-voter/blob/main/banner.png?raw=true)
+
 # Slido Voter
 
 Simple auto voting (like) bot for Slido questions.
