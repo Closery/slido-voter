@@ -41,11 +41,11 @@ const puppeteer_config = {
 
     autoScroll(page)
 
-    await page.waitForSelector(`[data-qid="${qid}"] button`)
+    await page.waitForSelector(`[data-qid="${qid}"] button[aria-label="Upvote question"]`)
 
     console.log('🔹 Question found')
 
-    const btn = await page.$(`[data-qid="${qid}"] button`)
+    const btn = await page.$(`[data-qid="${qid}"] button[aria-label="Upvote question"]`)
     await btn.evaluate((btn) => btn.click())
 
     await page.waitForResponse(`https://app.sli.do/eu1/api/v0.5/events/${uuid}/questions/${qid}/like`)
